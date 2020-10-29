@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?pa8gh4');
-  src:  url('fonts/icomoon.eot?pa8gh4#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pa8gh4') format('truetype'),
-    url('fonts/icomoon.woff?pa8gh4') format('woff'),
-    url('fonts/icomoon.svg?pa8gh4#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?egyup4');
+  src:  url('fonts/icomoon.eot?egyup4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?egyup4') format('truetype'),
+    url('fonts/icomoon.woff?egyup4') format('woff'),
+    url('fonts/icomoon.svg?egyup4#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="fa-"], [class*=" fa-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -25,27 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fa-pinterest:before {
-  content: "\e906";
+.icon-fa-angle-up:before {
+  content: "\e905";
 }
-.fa-facebook:before {
+.icon-fa-pinterest:before {
   content: "\e900";
 }
-.fa-facebook-f:before {
-  content: "\e900";
-}
-.fa-twitter:before {
+.icon-fa-facebook:before {
   content: "\e901";
 }
-.fa-angle-up:before {
+.icon-fa-search:before {
   content: "\e902";
 }
-.fa-search:before {
+.icon-fa-twitter:before {
   content: "\e903";
-}
-.fa-angle-double-right:before {
-  content: "\e904";
-}
-.fa-angle-double-left:before {
-  content: "\e905";
 }
