@@ -10,7 +10,7 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="fa-"], [class*=" fa-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -25,18 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-fa-angle-up:before {
+.fa-angle-up:before {
   content: "\e905";
 }
-.icon-fa-pinterest:before {
+.fa-pinterest:before {
   content: "\e900";
 }
-.icon-fa-facebook:before {
+.fa-facebook:before {
   content: "\e901";
 }
-.icon-fa-search:before {
+.fa-search:before {
   content: "\e902";
 }
-.icon-fa-twitter:before {
+.fa-twitter:before {
   content: "\e903";
 }
